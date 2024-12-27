@@ -14,8 +14,9 @@ setuptools.setup(
     url="https://github.com/pbcquoc/vietocr",
     packages=setuptools.find_packages(),
     install_requires=[
+        "gdown",
         "einops>=0.2.0",
-        "gdown>=4.4.0",
+        # "gdown>=4.4.0",
         "albumentations>=1.4.2",
         "lmdb>=1.0.0",
         "scikit-image>=0.21.0",
